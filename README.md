@@ -15,3 +15,4 @@ Creating an awesome tool to perform CNV QC on WES data independent of callers/pl
 
 ## Datasets:
 1-Simulated CNV 6 samples (males and females) fastq data (truthset: https://docs.google.com/spreadsheets/d/1TcpIsANN-rxTqyr-k5E9MS0ijj_5GxyNBR-4wFGaJUw/edit#gid=0)
+2-1000Genomes 10 random samples (males and females) mapped data
