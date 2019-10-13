@@ -4,6 +4,11 @@ Creating an awesome tool to perform CNV QC on WES data independent of callers/pl
 CNV QC creates a unified independent set of metrics for QCing CNV calls to identify false positive calls and enable cross caller comparisons.
 We use fastqc to evaluate overall library metrics, focusing on whether or not the overall library passes basecall qualities
 
+# Workflow:
+![](https://github.com/NCBI-Codeathons/CNV_QC/raw/master/workflow_new.png)
+
+# Input
+# Output
 
 # Motivation:
 * CNV callers based on WES frequently produce noisy/false positive calls
@@ -13,12 +18,11 @@ We use fastqc to evaluate overall library metrics, focusing on whether or not th
 * Identify false positive calls 
 * Enable cross callers comparison 
 
-# Workflow:
-![](https://github.com/NCBI-Codeathons/CNV_QC/raw/master/workflow_new.png)
 
 # Datasets:
-1-Simulated CNV 6 samples (males and females) fastq data (truthset: https://docs.google.com/spreadsheets/d/1TcpIsANN-rxTqyr-k5E9MS0ijj_5GxyNBR-4wFGaJUw/edit#gid=0)
-2-1000Genomes 10 random samples (males and females) mapped data
+* Simulated CNV 6 samples (males and females) fastq data (truthset: https://docs.google.com/spreadsheets/d/1TcpIsANN-rxTqyr-k5E9MS0ijj_5GxyNBR-4wFGaJUw/edit#gid=0)
+* 1000Genomes 10 random samples (males and females) mapped data
+
 # QC metrics:
 * Read quality in SV - python to pull from vcf
 * P-value? Outlier 
@@ -32,8 +36,7 @@ We use fastqc to evaluate overall library metrics, focusing on whether or not th
 * Stability? - DangerTrack
 * SD of read depth across samples? - python to pull from vcf
 
-# Input
-# Output
+
 # Dependencies
 * Xyalign
 * Pysam 
