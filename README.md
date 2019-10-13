@@ -1,6 +1,9 @@
 # CNV_QC
 
 Creating an awesome tool to perform CNV QC on WES data independent of callers/platform that focuses on confidence and reportability of CNV calls, particularly in clinical data.
+CNV QC creates a unified independent set of metrics for QCing CNV calls to identify false positive calls and enable cross caller comparisons.
+We use fastqc to evaluate overall library metrics, focusing on whether or not the overall library passes basecall qualities
+
 
 ## Motivation:
 * CNV callers based on WES frequently produce noisy/false positive calls
