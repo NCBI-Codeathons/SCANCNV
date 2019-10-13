@@ -7,8 +7,13 @@ We use fastqc to evaluate overall library metrics, focusing on whether or not th
 # Workflow:
 ![](https://github.com/NCBI-Codeathons/CNV_QC/raw/master/workflow_new.png)
 
-# Input
-# Output
+# Input:
+* Bam files
+* CNV calls in VCF format
+# Output: 
+* 
+* 
+
 
 # Motivation:
 * CNV callers based on WES frequently produce noisy/false positive calls
