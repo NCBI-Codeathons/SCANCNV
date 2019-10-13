@@ -29,7 +29,7 @@ python parse_fastqc.py <fastqc>
 
 # QC metrics:
 * Read quality in SV - python to pull from vcf
-* P-value Outlier 
+* Outliers 
 * Read quality (just use a subset: 2nd 10k)
 * Sex identification - XYAlign
 * Relatedness of samples - PLINK
@@ -38,17 +38,15 @@ python parse_fastqc.py <fastqc>
 * Mappability
 * GC content - DangerTrack
 * Stability - DangerTrack
-* SD of read depth across samples? - python to pull from vcf
+* SD of read depth across samples - python to pull from vcf
 
 
 # Dependencies
-* Xyalign
-* Pysam 
+* Samtools v 1.9
 * Pyvcf
 * Miniconda
 * FastQC v0.11.8
 * XYalign v1.1.6
 * Pysam v 0.13 or higher
-* Samtools v 1.9
 * hs37d5 human genome reference
 * Targeted capture regions bed file
