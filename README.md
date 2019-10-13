@@ -50,12 +50,12 @@ sh Miniconda2-latest-Linux-x86_64.sh
 ```
 * Samtools v 1.9
 ```
-wget https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2
-tar -vxjf samtools-1.9.tar.bz2
-cd samtools-1.9
-make
+conda install -c conda-forge -c bioconda samtools
 ```
 * Pyvcf
+```
+conda install -c bioconda pyvcf
+```
 * FastQC v0.11.8
 ```
 conda install -c bioconda fastqc
@@ -65,6 +65,12 @@ conda install -c bioconda fastqc
 conda install -c bioconda xyalign
 ```
 * Pysam v >0.13
+```
+Condo install -c bioconda pysam=0.13
+```
 * Bedtools v2.29.0
+```
+conda install -c bioconda bedtools
+```
 * hs37d5 human genome reference
 * Targeted capture regions bed file
