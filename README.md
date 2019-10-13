@@ -14,4 +14,4 @@ Creating an awesome tool to perform CNV QC on WES data independent of callers/pl
 ![](https://github.com/NCBI-Codeathons/CNV_QC/raw/master/workflow_new.png)
 
 ## Datasets:
-1-
+1-Simulated CNV 6 samples (males and females) fastq data (truthset: https://docs.google.com/spreadsheets/d/1TcpIsANN-rxTqyr-k5E9MS0ijj_5GxyNBR-4wFGaJUw/edit#gid=0)
