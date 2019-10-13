@@ -18,9 +18,12 @@ In our workflow, FASTQC is used to evaluate the overall library metrics, Plink i
 * CNV calls in VCF format
 # Output
 * fastqc_combined.metrics
+![](https://github.com/NCBI-Codeathons/CNV_QC/raw/master/output_1.png)
+![](https://github.com/NCBI-Codeathons/CNV_QC/raw/master/output_2.png)
 # Usage
 ```
 python xyalign_run.py > gender_ratio.csv
+python cnv_length.py > cnvlen.csv
 sh determine_dangerzone.sh calls > dangerzone.cnvs
 ```
 # Datasets:
