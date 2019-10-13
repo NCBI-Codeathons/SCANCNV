@@ -44,6 +44,7 @@ python parse_fastqc.py <fastqc>
 
 # Dependencies
 * Plink 
+Download it from http://math.uic.edu/t3m/plink/PLink.dmg
 * DangerTrack
 * Miniconda
 ```
