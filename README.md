@@ -12,7 +12,10 @@ We use fastqc to evaluate overall library metrics, focusing on whether or not th
 * CNV calls in VCF format
 # Output: 
 
-
+# How to generate Fastqc:
+```
+python parse_fastqc.py <fastqc> 
+```
 # Motivation:
 * CNV callers based on WES frequently produce noisy/false positive calls
 * Validating these calls involves MPLA/external tools: time + memory 
