@@ -1,7 +1,7 @@
-# SCANCNV
+# ScanCNV
 
-Creating an awesome tool to perform SCANCNV on WES data independent of callers/platform that focuses on confidence and reportability of CNV calls, particularly in clinical data.
-SCANCNV creates a unified independent set of metrics for QCing CNV calls to identify false positive calls and enable cross caller comparisons.
+Creating an awesome tool to perform ScanCNV on WES data independent of callers/platform that focuses on confidence and reportability of CNV calls, particularly in clinical data.
+ScanCNV creates a unified independent set of metrics for QCing CNV calls to identify false positive calls and enable cross caller comparisons.
 We use fastqc to evaluate overall library metrics, focusing on whether or not the overall library passes basecall qualities
 ### Motivation:
 * CNV callers based on WES frequently produce noisy/false positive calls
@@ -13,15 +13,16 @@ We use fastqc to evaluate overall library metrics, focusing on whether or not th
 # Workflow:
 ![](https://github.com/NCBI-Codeathons/CNV_QC/raw/master/workflow_new.png)
 
-# Input:
+# Inputs
 * Bam files
 * CNV calls in VCF format
-# Output: 
+# Outputs
 
-# How to generate Fastqc:
+# Usage
 ```
 python parse_fastqc.py <fastqc> 
 ```
+### Parameters
 
 # Datasets:
 * Simulated CNV 6 samples (males and females) fastq data (truthset: https://docs.google.com/spreadsheets/d/1TcpIsANN-rxTqyr-k5E9MS0ijj_5GxyNBR-4wFGaJUw/edit#gid=0)
@@ -43,6 +44,12 @@ python parse_fastqc.py <fastqc>
 
 # Dependencies
 * Samtools v 1.9
+```
+wget https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2
+tar -vxjf samtools-1.9.tar.bz2
+cd samtools-1.9
+make
+```
 * Pyvcf
 * Miniconda
 * FastQC v0.11.8
