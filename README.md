@@ -29,7 +29,7 @@ python parse_fastqc.py <fastqc>
 
 # QC metrics:
 * Read quality in SV - python to pull from vcf
-* P-value? Outlier 
+* P-value Outlier 
 * Read quality (just use a subset: 2nd 10k)
 * Sex identification - XYAlign
 * Relatedness of samples - PLINK
@@ -37,7 +37,7 @@ python parse_fastqc.py <fastqc>
 * Distribution of calls - python to pull from vcf
 * Mappability
 * GC content - DangerTrack
-* Stability? - DangerTrack
+* Stability - DangerTrack
 * SD of read depth across samples? - python to pull from vcf
 
 
