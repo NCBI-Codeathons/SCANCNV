@@ -1,16 +1,9 @@
 # ScanCNV
 
 Creating an awesome tool to perform ScanCNV on WES data independent of callers/platform that focuses on confidence and reportability of CNV calls, particularly in clinical data.
-ScanCNV creates a unified independent set of metrics for Quality Control on CNV calls to identify false positive calls and enable cross caller comparisons.
-We use FASTQC to evaluate overall library metrics, focusing on whether or not the overall library passes basecall qualities,
-Plink identifies relatedness between samples in a batch, XYalign to check for mismatches in gender and evaluate sex chromosome calls, and DangerTrack is used to pre-annotate the reference genome for stability, GC, and mappability.  Additionally, ScanCNV evaluates the distribution of CNV calls across the genome, and the distribution of read depths across CNV calls and, in the case of batched samples, across the batch.
-### Motivation:
-* CNV callers based on WES frequently produce noisy/false positive calls
-* Validating these calls involves MPLA/external tools: time + memory 
-### Solution: 
-* Unified independent set of metrics for QCing CNV calls
-* Identify false positive calls 
-* Enable cross callers comparison 
+ScanCNV creates a unified independent set of metrics for Quality Control on CNV calls to identify false positive calls and enable cross caller comparisons.The **Motivation** is 1) CNV callers based on WES frequently produce noisy/false positive calls
+and 2) Validating these calls involves MPLA/external tools: time + memory. Here, we propose 1) a unified independent set of metrics for QCing CNV calls 2) identifying false positive calls and 3) a cross callers comparison 
+
 # Workflow:
 ![](https://github.com/NCBI-Codeathons/CNV_QC/raw/master/workflow_new.png)
 
