@@ -91,4 +91,3 @@ conda install -c bioconda bwa
 ```
 * hs37d5 human genome reference
 * Targeted capture regions bed file
-
