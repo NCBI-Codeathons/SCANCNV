@@ -10,6 +10,8 @@ Creating an awesome tool to perform CNV QC on WES data independent of callers/pl
 * Identify false positive calls 
 * Enable cross callers comparison 
 
-# Workflow:
+## Workflow:
 ![](https://github.com/NCBI-Codeathons/CNV_QC/raw/master/workflow_new.png)
 
+## Datasets:
+1-
