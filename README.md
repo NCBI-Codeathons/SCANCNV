@@ -46,3 +46,11 @@ We use fastqc to evaluate overall library metrics, focusing on whether or not th
 * Xyalign
 * Pysam 
 * Pyvcf
+* Miniconda
+* FastQC v0.11.8
+* XYalign v1.1.6
+* Pysam v 0.13 or higher
+* Samtools v 1.9
+* hs37d5 human genome reference
+* Targeted capture regions bed file
+
