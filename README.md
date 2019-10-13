@@ -20,7 +20,8 @@ In our workflow, FASTQC is used to evaluate the overall library metrics, Plink i
 * fastqc_combined.metrics
 # Usage
 ```
-
+python xyalign_run.py > gender_ratio.csv
+sh determine_dangerzone.sh calls > dangerzone.cnvs
 ```
 # Datasets:
 * Simulated CNV 6 samples (males and females) fastq data (truthset: https://docs.google.com/spreadsheets/d/1TcpIsANN-rxTqyr-k5E9MS0ijj_5GxyNBR-4wFGaJUw/edit#gid=0)
