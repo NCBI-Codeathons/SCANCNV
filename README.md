@@ -43,8 +43,8 @@ python parse_fastqc.py <fastqc>
 
 
 # Dependencies
-Plink 
-DangerTrack
+* Plink 
+* DangerTrack
 * Miniconda
 ```
 wget https://repo.anaconda.com/miniconda/Miniconda2-latest-Linux-x86_64.sh
