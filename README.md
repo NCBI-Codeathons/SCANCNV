@@ -1,7 +1,7 @@
 # ScanCNV
 
 Creating an awesome tool to perform ScanCNV on WES data independent of callers/platform that focuses on confidence and reportability of CNV calls, particularly in clinical data.
-ScanCNV creates a unified independent set of metrics for Quality Control on CNV calls to identify false positive calls and enable cross caller comparisons. The motivation and the proposed solution are as follows:
+ScanCNV creates a unified independent set of metrics for Quality Control on CNV calls to identify false positive calls and enable cross caller comparisons.
 ## Motivation
 * CNV callers based on WES frequently produce noisy/false positive calls
 * Validating these calls involves MPLA/external tools: time + memory
