@@ -16,14 +16,12 @@ In our workflow, FASTQC is used to evaluate the overall library metrics, Plink i
 # Inputs
 * Bam files
 * CNV calls in VCF format
-# Outputs
-
+# Output
+* fastqc_combined.metrics
 # Usage
 ```
-python parse_fastqc.py <fastqc> 
-```
-### Parameters
 
+```
 # Datasets:
 * Simulated CNV 6 samples (males and females) fastq data (truthset: https://docs.google.com/spreadsheets/d/1TcpIsANN-rxTqyr-k5E9MS0ijj_5GxyNBR-4wFGaJUw/edit#gid=0)
 * 1000Genomes 10 random samples (males and females) mapped data
