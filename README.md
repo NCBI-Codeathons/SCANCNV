@@ -27,11 +27,10 @@ We use fastqc to evaluate overall library metrics, focusing on whether or not th
 * Relatedness of samples - PLINK
 * Noisiness of read depth - python to pull from vcf
 * Distribution of calls - python to pull from vcf
-
-Mappability
-GC content - DangerTrack
-Stability? - DangerTrack
-SD of read depth across samples? - python to pull from vcf
+* Mappability
+* GC content - DangerTrack
+* Stability? - DangerTrack
+* SD of read depth across samples? - python to pull from vcf
 
 # Input
 # Output
