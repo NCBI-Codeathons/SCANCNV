@@ -10,7 +10,7 @@ ScanCNV creates a unified independent set of metrics for Quality Control on CNV 
 * Identifying false positive calls
 * Cross callers comparison 
 # Workflow:
-In our workflow, FASTQC is used to evaluate the overall library metrics, Plink identifies relatedness between samples in a batch, XYalign to check for mismatches in gender and evaluate sex chromosome calls.  DangerTrack is used to pre-annotate the reference genome for stability, GC, and mappability.  Additionally, ScanCNV evaluates the distribution of CNV calls across the genome, and the distribution of read depths across CNV calls and, in the case of batched samples, across the batch. 
+In our workflow, FASTQC is used to evaluate the overall library metrics, Plink identifies relatedness between samples in a batch, XYalign to check for mismatches in gender and evaluate sex chromosome calls.  DangerTrack - pre-annotated info on genome stability, GC, and mappability is used to tag CNVs falling in "DangerZones".  Additionally, ScanCNV evaluates the distribution of CNV calls across the genome, and the distribution of read depths across CNV calls and, in the case of batched samples, across the batch. 
 ![](https://github.com/NCBI-Codeathons/CNV_QC/raw/master/workflow_new.png)
 
 # Inputs
