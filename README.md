@@ -1,8 +1,8 @@
 # ScanCNV
 
 Creating an awesome tool to perform ScanCNV on WES data independent of callers/platform that focuses on confidence and reportability of CNV calls, particularly in clinical data.
-ScanCNV creates a unified independent set of metrics for QCing CNV calls to identify false positive calls and enable cross caller comparisons.
-We use fastqc to evaluate overall library metrics, focusing on whether or not the overall library passes basecall qualities
+ScanCNV creates a unified independent set of metrics for Quality Control on CNV calls to identify false positive calls and enable cross caller comparisons.
+We use fastqc to evaluate overall library metrics, focusing on whether or not the overall library passes basecall qualities.
 ### Motivation:
 * CNV callers based on WES frequently produce noisy/false positive calls
 * Validating these calls involves MPLA/external tools: time + memory 
@@ -43,6 +43,8 @@ python parse_fastqc.py <fastqc>
 
 
 # Dependencies
+Plink 
+DangerTrack
 * Miniconda
 ```
 wget https://repo.anaconda.com/miniconda/Miniconda2-latest-Linux-x86_64.sh
@@ -72,5 +74,10 @@ Condo install -c bioconda pysam=0.13
 ```
 conda install -c bioconda bedtools
 ```
+* BWA
+```
+conda install -c bioconda bwa
+```
 * hs37d5 human genome reference
 * Targeted capture regions bed file
+
