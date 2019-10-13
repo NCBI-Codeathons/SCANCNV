@@ -43,6 +43,7 @@ python parse_fastqc.py <fastqc>
 
 
 # Dependencies
+* DangerTrack
 * Plink 
 ```
 wget http://math.uic.edu/t3m/plink/PLink.dmg
@@ -50,7 +51,6 @@ tar xfz plink.tar.gz
 cd plink
 python -m plink.app
 ```
-* DangerTrack
 * Miniconda
 ```
 wget https://repo.anaconda.com/miniconda/Miniconda2-latest-Linux-x86_64.sh
