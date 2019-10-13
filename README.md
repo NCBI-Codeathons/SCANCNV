@@ -54,4 +54,3 @@ python parse_fastqc.py <fastqc>
 * Samtools v 1.9
 * hs37d5 human genome reference
 * Targeted capture regions bed file
-
