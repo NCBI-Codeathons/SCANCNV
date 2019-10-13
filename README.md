@@ -3,10 +3,10 @@
 Creating an awesome tool to perform SCANCNV on WES data independent of callers/platform that focuses on confidence and reportability of CNV calls, particularly in clinical data.
 SCANCNV creates a unified independent set of metrics for QCing CNV calls to identify false positive calls and enable cross caller comparisons.
 We use fastqc to evaluate overall library metrics, focusing on whether or not the overall library passes basecall qualities
-## Motivation:
+### Motivation:
 * CNV callers based on WES frequently produce noisy/false positive calls
 * Validating these calls involves MPLA/external tools: time + memory 
-## Solution: 
+### Solution: 
 * Unified independent set of metrics for QCing CNV calls
 * Identify false positive calls 
 * Enable cross callers comparison 
