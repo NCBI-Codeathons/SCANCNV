@@ -43,6 +43,11 @@ python parse_fastqc.py <fastqc>
 
 
 # Dependencies
+* Miniconda
+```
+wget https://repo.anaconda.com/miniconda/Miniconda2-latest-Linux-x86_64.sh
+sh Miniconda2-latest-Linux-x86_64.sh
+```
 * Samtools v 1.9
 ```
 wget https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2
@@ -51,9 +56,15 @@ cd samtools-1.9
 make
 ```
 * Pyvcf
-* Miniconda
 * FastQC v0.11.8
+```
+conda install -c bioconda fastqc
+```
 * XYalign v1.1.6
-* Pysam v 0.13 or higher
+```
+conda install -c bioconda xyalign
+```
+* Pysam v >0.13
+* Bedtools v2.29.0
 * hs37d5 human genome reference
 * Targeted capture regions bed file
