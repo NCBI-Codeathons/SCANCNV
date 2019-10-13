@@ -20,6 +20,9 @@ In our workflow, FASTQC is used to evaluate the overall library metrics, Plink i
 * fastqc_combined.metrics
 ![](https://github.com/NCBI-Codeathons/CNV_QC/raw/master/output_1.png)
 ![](https://github.com/NCBI-Codeathons/CNV_QC/raw/master/output_2.png)
+![](https://github.com/NCBI-Codeathons/CNV_QC/raw/master/cnv_length.png)
+![](https://github.com/NCBI-Codeathons/CNV_QC/raw/master/gender_ratio.png)
+![](https://github.com/NCBI-Codeathons/CNV_QC/raw/master/mean_equal_output.png)
 # Usage
 ```
 python xyalign_run.py > gender_ratio.csv
