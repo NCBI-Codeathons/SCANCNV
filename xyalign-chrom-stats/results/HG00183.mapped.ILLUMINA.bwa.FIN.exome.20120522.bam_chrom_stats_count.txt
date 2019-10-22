@@ -1,0 +1,3 @@
+chrom	HG00183.mapped.ILLUMINA.bwa.FIN.exome.20120522.bam
+X	2862435
+Y	398730

@@ -1,0 +1,10 @@
+PASS	Basic Statistics	HG00119.mapped.ILLUMINA.bwa.GBR.exome.20120522.bam
+FAIL	Per base sequence quality	HG00119.mapped.ILLUMINA.bwa.GBR.exome.20120522.bam
+PASS	Per sequence quality scores	HG00119.mapped.ILLUMINA.bwa.GBR.exome.20120522.bam
+PASS	Per base sequence content	HG00119.mapped.ILLUMINA.bwa.GBR.exome.20120522.bam
+WARN	Per sequence GC content	HG00119.mapped.ILLUMINA.bwa.GBR.exome.20120522.bam
+PASS	Per base N content	HG00119.mapped.ILLUMINA.bwa.GBR.exome.20120522.bam
+PASS	Sequence Length Distribution	HG00119.mapped.ILLUMINA.bwa.GBR.exome.20120522.bam
+PASS	Sequence Duplication Levels	HG00119.mapped.ILLUMINA.bwa.GBR.exome.20120522.bam
+PASS	Overrepresented sequences	HG00119.mapped.ILLUMINA.bwa.GBR.exome.20120522.bam
+PASS	Adapter Content	HG00119.mapped.ILLUMINA.bwa.GBR.exome.20120522.bam

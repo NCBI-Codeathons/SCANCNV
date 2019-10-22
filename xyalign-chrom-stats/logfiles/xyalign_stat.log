@@ -1,0 +1,32 @@
+2019-10-13 21:16:52,347 - xyalign - INFO - 
+	XYalign: Inferring Sex Chromosome Ploidy in NGS Data
+
+	Timothy H Webster, Tanya Phung, Madeline Couse, Bruno Grande, Eric Karlins,
+	Phillip Richmond, Whitney Whitford, Melissa A. Wilson Sayres
+
+	2017
+
+	Version: 1.1.5
+	
+2019-10-13 21:16:52,347 - xyalign - INFO - Parameters: no_perm_test=False, PREPARE_REFERENCE=False, skip_compatibility_check=False, sam=None, target_bed=/home/dnanexus/target-bed/20130108.exome.targets.nochr.bed, include_fixed=False, cpus=1, no_cleanup=False, no_ks_test=False, fastq_compression=3, bwa_index=False, y_chromosome=[None], sample_id=HG00501.mapped.ILLUMINA.bwa.CHS.exome.20120522.bam, variant_genotype_quality=30, variant_depth=4, num_permutations=10000, sex_chrom_bam_only=False, reporting_level=INFO, sex_chrom_calling_threshold=2.0, STRIP_READS=False, y_present=False, x_chromosome=[None], reference_mask=None, single_end=False, use_counts=True, marker_transparency=0.5, xmx=None, output_dir=/home/dnanexus/xyalign-chrom-stats/, xx_ref_out=None, cram=None, REMAPPING=False, whole_genome_threshold=False, ref=/home/dnanexus/hs37d5/hs37d5.fa, ANALYZE_BAM=False, bwa_flags=, repairsh_path=repair.sh, coordinate_scale=1000000, chromosomes=['X', 'Y'], max_depth_filter=10000.0, platypus_path=platypus, no_variant_plots=False, exact_depth=False, platypus_logfile=None, min_variant_count=1, xy_ref_in=None, bedtools_path=bedtools, num_bootstraps=10000, logfile=xyalign_stat.log, no_bootstrap=False, xx_ref_in=None, window_size=None, sambamba_path=sambamba, CHROM_STATS=True, samtools_path=samtools, homogenize_read_balance=False, ignore_duplicates=False, variant_site_quality=30, shufflesh_path=repair.sh, xy_ref_out_name=None, xy_ref_out=None, platypus_calling=both, y_absent=False, xx_ref_out_name=None, no_bam_analysis=False, marker_size=10.0, CHARACTERIZE_SEX_CHROMS=False, mapq_cutoff=20, bam=['/home/dnanexus/1000g/HG00501.mapped.ILLUMINA.bwa.CHS.exome.20120522.bam'], bwa_path=bwa, read_group_id=xyalign, min_depth_filter=0.0, 
+2019-10-13 21:16:52,347 - xyalign - INFO - Beginning XYalign
+2019-10-13 21:16:52,347 - xyalign - INFO - Checking external programs
+2019-10-13 21:16:52,353 - xyalign.utils - INFO - bbmap's repair.sh successfully called using path: repair.sh
+2019-10-13 21:16:52,358 - xyalign.utils - INFO - bedtools successfully called using path: bedtools
+2019-10-13 21:16:52,364 - xyalign.utils - INFO - bwa successfully called using path: bwa
+2019-10-13 21:16:52,371 - xyalign.utils - INFO - platypus successfully called using path: platypus
+2019-10-13 21:16:52,377 - xyalign.utils - INFO - samtools successfully called using path: samtools
+2019-10-13 21:16:52,382 - xyalign.utils - INFO - sambamba successfully called using path: sambamba
+2019-10-13 21:16:52,383 - xyalign - INFO - All external program paths successfully checked
+2019-10-13 21:16:52,383 - xyalign - INFO - CHROM_STATS set, will iterate through bam files to calculate chromosome-wide averages.
+2019-10-13 21:16:52,383 - xyalign.bam.BamFile - INFO - Creating a BamFile instance for /home/dnanexus/1000g/HG00501.mapped.ILLUMINA.bwa.CHS.exome.20120522.bam
+2019-10-13 21:16:52,383 - xyalign.bam.BamFile - INFO - Checking indexing of /home/dnanexus/1000g/HG00501.mapped.ILLUMINA.bwa.CHS.exome.20120522.bam
+2019-10-13 21:16:52,383 - xyalign.bam.BamFile - INFO - Bam index present and newer than bam file
+2019-10-13 21:16:52,384 - xyalign - INFO - Running CHROM_STATS on following bam files: /home/dnanexus/1000g/HG00501.mapped.ILLUMINA.bwa.CHS.exome.20120522.bam
+2019-10-13 21:16:52,384 - xyalign.utils - INFO - Checking compatibility of: 
+2019-10-13 21:16:52,420 - xyalign.bam.BamFile - INFO - Checking to ensure all chromosomes are found in /home/dnanexus/1000g/HG00501.mapped.ILLUMINA.bwa.CHS.exome.20120522.bam
+2019-10-13 21:16:52,439 - xyalign.bam.BamFile - INFO - All chromosomes present in /home/dnanexus/1000g/HG00501.mapped.ILLUMINA.bwa.CHS.exome.20120522.bam
+2019-10-13 21:16:52,439 - xyalign.bam.BamFile - INFO - Using index of /home/dnanexus/1000g/HG00501.mapped.ILLUMINA.bwa.CHS.exome.20120522.bam to get read counts per chromosome
+2019-10-13 21:16:52,458 - xyalign.bam.BamFile - INFO - Index analysis complete. Elapsed time: 0.0184650421143 seconds
+2019-10-13 21:16:52,458 - xyalign - INFO - CHROM_STATS complete.
+2019-10-13 21:16:52,458 - xyalign - INFO - XYalign complete. Elapsed time: 0.116405963898 seconds

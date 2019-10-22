@@ -1,0 +1,3 @@
+chrom	HG00099.mapped.ILLUMINA.bwa.GBR.exome.20130415.bam
+X	5173817
+Y	7448

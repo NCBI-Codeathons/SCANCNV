@@ -1,0 +1,10 @@
+PASS	Basic Statistics	HG00448.mapped.ILLUMINA.bwa.CHS.exome.20121211.bam
+FAIL	Per base sequence quality	HG00448.mapped.ILLUMINA.bwa.CHS.exome.20121211.bam
+PASS	Per sequence quality scores	HG00448.mapped.ILLUMINA.bwa.CHS.exome.20121211.bam
+PASS	Per base sequence content	HG00448.mapped.ILLUMINA.bwa.CHS.exome.20121211.bam
+WARN	Per sequence GC content	HG00448.mapped.ILLUMINA.bwa.CHS.exome.20121211.bam
+PASS	Per base N content	HG00448.mapped.ILLUMINA.bwa.CHS.exome.20121211.bam
+PASS	Sequence Length Distribution	HG00448.mapped.ILLUMINA.bwa.CHS.exome.20121211.bam
+PASS	Sequence Duplication Levels	HG00448.mapped.ILLUMINA.bwa.CHS.exome.20121211.bam
+PASS	Overrepresented sequences	HG00448.mapped.ILLUMINA.bwa.CHS.exome.20121211.bam
+PASS	Adapter Content	HG00448.mapped.ILLUMINA.bwa.CHS.exome.20121211.bam
