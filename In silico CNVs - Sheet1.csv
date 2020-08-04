@@ -1,0 +1,52 @@
+Sample name,Sex,ploidy,start,# exons,Underlying SNPset,Notes,Made?,Called?,in always called FPs?,,,,,
+Library1,M,2,X:32234881,4,male,no par,y,yes,n,,,,,
+Library2,F,4,X:53455230,8,female,,y,yes,y,,,,,
+Library3,M,0,X:21673971,1,male,no par,y,yes,n,,,,,
+Library4,F,1,X:7177389,2,female,,y,yes,n,,,,,
+Library5,F,1,X:77264454,5,female,,y,yes,n,,,,,
+Library6,M,2,all X chr,all X chr,male,no par,y,no,n,,,,,
+Library7,F,3,X:155118977,3,female,,y,yes,y,,,,,
+Library8,F,3,X:153589566,2,,,y,,,,,,,
+Library9,M,2,X:153589566,2,,,,,,,,,,
+Library10,F,1,X:153589566,2,,,,,,,,,,
+Library11,M,0,X:153589566,2,,,,,,,,,,
+LIbrary 12,F,3,X:77286714,16,,,,,,,,,,
+LIbrary 13,M,2,X:77286714,16,,,,,,,,,,
+LIbrary 14,F,1,X:77286714,16,,,,,,,,,,
+LIbrary 15,M,0,X:77286714,16,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Possible Background,,,,,,,,,,,,,,
+Fake background,,set1,Library11,M,0,X:153589566,2,deletion,,,,,,
+real samples,,,LIbrary 15,M,0,X:77286714,16,deletion,,,,,,
+,,,Library8,F,3,X:153589566,2,duplication,,,,,,
+,,,LIbrary 12,F,3,X:77286714,16,duplication,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,set2,Library10,F,1,X:153589566,2,deletion,,,,,,
+,,,LIbrary 14,F,1,X:77286714,16,deletion,,,,,,
+,,,Library9,M,2,X:153589566,2,duplication,,,,,,
+,,,LIbrary 13,M,2,X:77286714,16,duplication,,,,,,
+,,,,,,,,,,,,,,
+,,,"For background, run each group with Fake Background samples and again with real NIAID samples",,,,,,,,,,,
+under: /stornext/snfs5/next-gen/scratch/sekalla/insilico_CNVs/qw-bwa-20191101/xhmm-analysis-20191104/output,,,,,,,,,,,,,,
+"grep ""X:153589"" *.xcnv",,,,,,,,,,,,,,
+SAMPLE,CNV,INTERVAL,KB,CHR,MID_BP,TARGETS,NUM_TARG,Q_EXACT,Q_SOME,Q_NON_DIPLOID,Q_START,Q_STOP,MEAN_RD,MEAN_ORIG_RD
+female.library10.sd50-set2-withFake-DATA.xcnv,DEL,X:153589645-153591153,1.51,X,153590399,193770..193775,6,87,99,99,38,12,-9.56,61.34
+female.library8.sd50-set1-withReal-DATA.xcnv,DUP,X:153589645-153593855,4.21,X,153591750,189854..189864,11,34,99,99,22,52,6.08,184.65
+male.library11.sd50-set1-withFake-DATA.xcnv,DEL,X:153589645-153593855,4.21,X,153591750,193770..193781,12,63,99,99,8,9,-9.08,0
+male.library11.sd50-set1-withReal-DATA.xcnv,DEL,X:153589645-153593855,4.21,X,153591750,189854..189864,11,28,99,99,11,37,-6.29,0
+male.library13.sd50-set2-withFake-DATA.xcnv,DEL,X:153589645-153593855,4.21,X,153591750,193770..193781,12,8,99,99,7,34,-4.97,64.38
+male.library15.sd50-set1-withFake-DATA.xcnv,DUP,X:153589645-153593855,4.21,X,153591750,193770..193781,12,21,99,99,14,12,5.11,64.96
+male.library9.sd50-set2-withFake-DATA.xcnv,DUP,X:153589645-153593855,4.21,X,153591750,193770..193781,12,65,99,99,23,9,9,128.69
+,,,,,,,,,,,,,,
+"grep ""X:77286"" *.xcnv",,,,,,,,,,,,,,
+SAMPLE,CNV,INTERVAL,KB,CHR,MID_BP,TARGETS,NUM_TARG,Q_EXACT,Q_SOME,Q_NON_DIPLOID,Q_START,Q_STOP,MEAN_RD,MEAN_ORIG_RD
+female.library12.sd50-set1-withFake-DATA.xcnv,DUP,X:77286898-77387271,100.37,X,77337084,190970..190989,20,99,99,99,22,33,9.7,207.95
+female.library14.sd50-set2-withFake-DATA.xcnv,DEL,X:77286898-77387271,100.37,X,77337084,190970..190989,20,99,99,99,27,35,-9.81,70.01
+female.library14.sd50-set2-withReal-DATA.xcnv,DEL,X:77286898-77387271,100.37,X,77337084,187122..187141,20,68,99,99,11,0,-8.48,70.01
+male.library11.sd50-set1-withFake-DATA.xcnv,DUP,X:77286898-77387271,100.37,X,77337084,190970..190989,20,53,99,99,14,24,5.47,70.6
+male.library13.sd50-set2-withFake-DATA.xcnv,DUP,X:77286898-77387271,100.37,X,77337084,190970..190989,20,99,99,99,18,32,9.75,141.84
+male.library13.sd50-set2-withReal-DATA.xcnv,DUP,X:77286898-77387271,100.37,X,77337084,187122..187141,20,67,99,99,4,0,8.56,141.84
+male.library15.sd50-set1-withFake-DATA.xcnv,DEL,X:77286898-77387271,100.37,X,77337084,190970..190989,20,99,99,99,26,15,-9.68,0
+male.library9.sd50-set2-withFake-DATA.xcnv,DEL,X:77286898-77387271,100.37,X,77337084,190970..190989,20,49,99,99,26,19,-5.53,71.1
